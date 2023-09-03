@@ -53,6 +53,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #f6f6f6;
  }   
 
   .section-title{
@@ -66,4 +67,16 @@ header {
     font-size: 18px;
     padding: 15px;
     margin: 0;
+}
+
+.exploration-restaurants {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.button {
+    background-color: #FF79DA;
+    border-radius: 25px;
+    color: white;
 }
