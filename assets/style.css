@@ -1,10 +1,10 @@
 /****** General ***********/
-*{
-    font-family: 'Roboto', sans-serif;
+* {
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
-    --main-color: #9356DC;
+    --main-color: #9356dc;
     --main-bg-color: #f2f2f2;
     --filter-bg-color: #f6f6f6;
 }
@@ -28,6 +28,14 @@ header {
     padding: 15px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+.card {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
 
 .logo {
     height: 50px;
@@ -53,20 +61,20 @@ header {
 }
 
 /*******section info ******/
- .info-group {
+.info-group {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #f6f6f6;
- }   
+}
 
-  .section-title{
-    font-weight: bold;
-    font-size: 24px;
+.section-title {
+     font-size: 24px;
     padding-top: 50px;
-    margin: 0;
- }
- 
+    margin: 25px;
+    font-family: 'Shrikhand', cursive;
+}
+
 .info {
     font-size: 18px;
     padding: 15px;
@@ -80,41 +88,52 @@ header {
 }
 
 .button {
-    background-color: #FF79DA;
+    background-color: #ff79da;
     border-radius: 25px;
     color: white;
-    background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
+    background: var(--Button-Gradient, linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%));
 }
 
 /****** Fonctionnement ******/
-
-.explications {
-    margin: 25px;
-}
 
 .fonctionnement {
     display: flex;
     flex-direction: column;
 }
 
-.list-filters {
+ .card {
+    margin: 20px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+ .fonctionnement-cards .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.fonctionnement-cards .card-title {
+    font-size: 16px;
+    color: black;
+}
+
+.fonctionnement-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 10px;
+    padding: 25px;
 }
 
-.list-filters li {
-    display: flex;
-    padding: 0px 19px;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border-radius: 20px;
-    background-color: #f6f6f6;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+
+.fa-icones {
+    color: #7E7E7E;
 }
 
 .fa-store {
-    color: #9356DC;
+    color: #9356dc;
 }
