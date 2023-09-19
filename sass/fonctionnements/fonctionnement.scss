@@ -1,0 +1,47 @@
+/****** Fonctionnement ******/
+
+
+
+ .card {
+    margin: 20px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+    &-cards .card-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+
+        .fonctionnement-cards .card-title {
+            font-size: 16px;
+            color: black;
+
+
+            .fonctionnement-list {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap: 10px;
+                padding: 25px;
+            }
+        }
+    }
+}
+                        
+
+.fa-icones {
+    color: #7E7E7E;
+}
+
+.fa-store {
+    color: #9356dc;
+}
