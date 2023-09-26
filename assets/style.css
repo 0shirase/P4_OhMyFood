@@ -8,9 +8,28 @@
   height: 50px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .footer {
   background: var(--Grey, #353535);
   color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer ul {
+  list-style: none;
 }
 
 /****** Fonctionnement ******/
