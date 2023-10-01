@@ -90,3 +90,40 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/****** Media queries ***********/
+@media (min-width: 1024px) {
+
+   .fonctionnement {
+    width: 100%;
+    margin: 75px;
+   }
+
+   .fonctionnement-cards {
+    display: flex;
+   }
+
+   .fonctionnement-cards .card {
+    width: 27%;
+   }
+   
+   .restaurants .section-title {
+    margin: 75px;
+   }
+
+   .restaurants-cards a{
+    width: 48%;
+   }
+   
+   .restaurants .restaurants-cards {
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+   .restaurants .card {
+    width: 85%;
+   }
+
+}

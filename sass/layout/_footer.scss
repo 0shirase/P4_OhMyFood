@@ -16,3 +16,23 @@
 .footer ul {
     list-style: none;
 }
+
+/****** Media queries ***********/
+@media (min-width: 1024px) {
+
+   .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    padding-top: 20px;
+   }
+    .footer-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer .section-title {
+        padding: 0;
+    }
+}
