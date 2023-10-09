@@ -173,34 +173,6 @@ body {
   color: #9356dc;
 }
 
-.heart {
-  position: absolute;
-  left: 85%;
-  top: 75%;
-}
-
-.fa-heart {
-  font-size: 30px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  position: absolute;
-}
-
-.heart-full {
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 1000ms;
-}
-
-.heart-full:hover {
-  opacity: 1;
-  color: transparent;
-  background-image: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 .new {
   position: absolute;
   bottom: 82%;
@@ -317,6 +289,34 @@ header {
   justify-content: center;
   margin-bottom: 3%;
   margin-top: 4%;
+}
+
+.heart {
+  position: absolute;
+  left: 85%;
+  top: 75%;
+}
+
+.fa-heart {
+  font-size: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.heart-full {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 1000ms;
+}
+
+.heart-full:hover {
+  opacity: 1;
+  color: transparent;
+  background-image: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /*# sourceMappingURL=style.css.map */
