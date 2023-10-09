@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,16 +9,13 @@ body {
 
 .card {
     position: relative;
-    margin: 20px;
+    margin: 30px;
     background-color: #f6f6f6;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
-.main-container {
-    box-sizing: border-box;
-}
 
 @media (max-width: 1440px) {
 }
